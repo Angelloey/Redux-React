@@ -17,19 +17,12 @@ const CartItem = ({ item, adjustQty, removeFromCart }) => {
 
   return (
     <div className={styles.cartItem}>
-      <img
-        className={styles.cartItem__image}
-        src={item.image}
-        alt={item.title}
-      />
       <div className={styles.cartItem__details}>
         <p className={styles.details__title}>{item.title}</p>
         <p className={styles.details__desc}>{item.description}</p>
-        <p className={styles.details__price}>$ {item.price}</p>
       </div>
       <div className={styles.cartItem__actions}>
         <div className={styles.cartItem__qty}>
-          <label htmlFor="qty">Qty</label>
           <input
             min="1"
             type="number"
@@ -43,10 +36,7 @@ const CartItem = ({ item, adjustQty, removeFromCart }) => {
           onClick={() => removeFromCart(item.id)}
           className={styles.actions__deleteItemBtn}
         >
-          <img
-            src="https://image.flaticon.com/icons/svg/709/709519.svg"
-            alt=""
-          />
+          delete
         </button>
       </div>
     </div>

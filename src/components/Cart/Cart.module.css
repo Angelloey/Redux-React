@@ -1,13 +1,17 @@
 .cart {
-  margin: 2rem auto;
-  width: 1100px;
+  width: 1275px;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 1270px;
 }
 
 .cart__items {
   flex: 0.7;
   margin-right: 1rem;
+  margin: 0 auto;
+  margin-top: 50px
 }
 
 .cart__summary {

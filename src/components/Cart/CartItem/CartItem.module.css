@@ -53,21 +53,25 @@
   border-radius: 10px;
   border: 1px solid var(--secondary-color);
   outline: none;
+  margin-right: 0.4rem;
 }
 
 .actions__deleteItemBtn {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 40px;
   border: 1px solid var(--secondary-color);
-  border-radius: 50%;
+  border-radius: 10px;
   cursor: pointer;
   transition: all ease-in-out 0.7s;
   outline: none;
+  margin-top: 10px;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+
 }
 
 .actions__deleteItemBtn:hover {
-  transform: scale(1.2) rotate(360deg);
-  background-color: rgb(209, 15, 15);
+  background-color: rgb(248, 231, 72);
 }
 
 .actions__deleteItemBtn img {

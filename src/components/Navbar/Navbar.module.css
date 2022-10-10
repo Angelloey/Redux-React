@@ -8,6 +8,10 @@
   position: sticky;
   top: 0;
   left: 0;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 900px;
+  margin-top: 50px
 }
 
 .navbar__logo {
@@ -33,24 +37,16 @@
 }
 
 .cart__title {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   color: var(--dark-color);
 }
 
-.cart__image {
-  width: 30px;
-  height: 30px;
-  object-fit: contain;
-}
-
 .cart__counter {
-  height: 40px;
-  width: 40px;
-  border: 1px solid var(--secondary-color);
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
   color: var(--dark-color);
-  background: var(--light-color);
   font-size: 25px;
   display: flex;
   justify-content: center;
